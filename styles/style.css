@@ -22,6 +22,7 @@
     padding: 0;
 }
 
+
 /* nav style */
 nav{
     max-width: 1140px;
@@ -83,6 +84,51 @@ nav img{
     font-size: 1rem;
     margin-top: 13px;
 }
+.text-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+/*  Plants Section */
+.btn-color{
+    background-color: #E95A08;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 270px;
+    height: 484px;
+}
+.img-grid{
+    max-width: 270px;
+    height: 322px;
+    border-radius: 5px;
+}
+.grid-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+.text-grid{
+    font-weight: 400;
+    color: #111111;
+}
+.text-grid-2{
+    margin-top: -10px;
+    font-weight: bold;
+    color: #111111;
+}
 /* mobile responsive */
 @media (max-width: 768px) {
     nav li:not(:last-child) {
@@ -122,7 +168,33 @@ nav{
     padding: 0 16px;
 }
 .img-r{
+    max-width: 393px;
+    margin: 0 auto;
     padding: 0;
     margin: 0;
+}
+.text-container{
+    margin: 0 auto;
+    margin-top: 65px;
+}
+/* Plants Section */
+.grid-container{
+    max-width: 393px;
+    margin: 0 auto;
+    margin-top: 28px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item{
+    max-width: 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 340px;
+    border-radius: 5px;
+}
+.img-grid{
+    max-width: 171px;
+    height: 196px;
+    border-radius: 5px;
 }
 }
