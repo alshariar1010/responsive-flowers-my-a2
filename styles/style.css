@@ -21,7 +21,10 @@
     margin: 0;
     padding: 0;
 }
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* nav style */
 nav{
