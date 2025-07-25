@@ -95,6 +95,7 @@ nav img{
 .btn-color{
     background-color: #E95A08;
     color: white;
+    height: 50px;
     padding: 10px 30px;
     border: none;
     width: 100%;
@@ -429,7 +430,7 @@ nav{
     width: 361px;
     height: 172px;
     background-image: url("../assets/deal-ana.png");
-    background-color: #111111;
+    /* background-color: #111111; */
     background-repeat: no-repeat;
     background-size: cover;
     margin: 16px 20px;
