@@ -441,6 +441,7 @@ nav{
     margin-bottom: 40px;
 }
 .join-container{
+    margin: 0 auto;
     background-image: url('../assets/news-letter-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -486,8 +487,11 @@ nav{
 .trusted-badge{
     display: none;
 }
-..p-text{
-    font-size: .2rem;
+.p-text{
+    font-size: 1rem;
+}
+.link-container li {
+    margin-left: -40px;
 }
 
 }
